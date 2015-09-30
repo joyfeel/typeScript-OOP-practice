@@ -6,7 +6,7 @@ interface FlyBehavior {
 
 class FlyWithWings implements FlyBehavior {	
 	fly(): void {
-		console.log('I\'m flying');
+		console.log('I\'m flying!!!');
 	}
 }
 
@@ -56,3 +56,5 @@ abstract class Duck {
 		console.log('All ducks float, even decoys!');
 	}
 }
+
+

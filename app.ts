@@ -36,3 +36,12 @@ class Cat extends Animal {
 
 let smallWhite = new Dog('smallWhite');
 let mimi = new Cat('mimi');
+
+let button = document.createElement('button');
+button.textContent = "Say Hello";
+button.onclick = function() {
+    alert('Meow!!!!');
+}
+
+document.body.appendChild(button);
+

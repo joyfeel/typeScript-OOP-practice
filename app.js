@@ -39,3 +39,9 @@ var Cat = (function (_super) {
 })(Animal);
 var smallWhite = new Dog('smallWhite');
 var mimi = new Cat('mimi');
+var button = document.createElement('button');
+button.textContent = "Say Hello";
+button.onclick = function () {
+    alert('Meow!!!!');
+};
+document.body.appendChild(button);
