@@ -1,0 +1,23 @@
+{
+  "name": "jspm-overview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.11"
+  },
+  "jspm": {
+    "dependencies": {
+      "lodash": "npm:lodash@^3.10.1",
+      "moment": "github:moment/moment@^2.10.6"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
