@@ -37,5 +37,5 @@ var Cat = (function (_super) {
     };
     return Cat;
 })(Animal);
-var smallWhite = new Dog('smallWhite');
+var smallWhite = new Dog(123);
 var mimi = new Cat('mimi');
