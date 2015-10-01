@@ -6,7 +6,7 @@ interface FlyBehavior {
 
 class FlyWithWings implements FlyBehavior {	
 	fly(): void {
-		console.log('I\'m flying');
+		console.log('I\'m flying!!!');
 	}
 }
 
@@ -102,3 +102,4 @@ let model: Duck = new ModelDuck();
 model.performFly();
 model.setFlyBehavior(new FlyRocketPowered());
 model.performFly();
+

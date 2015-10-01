@@ -8,7 +8,7 @@ var FlyWithWings = (function () {
     function FlyWithWings() {
     }
     FlyWithWings.prototype.fly = function () {
-        console.log('I\'m flying');
+        console.log('I\'m flying!!!');
     };
     return FlyWithWings;
 })();
